@@ -1,6 +1,5 @@
 import openai
 import base64
-from seletor_arquivo import selecionar_arquivo
 
 
 openai.api_key = "sk-...OrcA"

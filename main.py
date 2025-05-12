@@ -17,7 +17,7 @@ def on_click():
         entry_arquivo.delete(0, "end")
         entry_arquivo.insert(0, caminho)
         entry_arquivo.configure(state="readonly")
-        ler_audiograma()
+        ler_audiograma(caminho)
 
 entry_arquivo = ctk.CTkEntry(app, width=300)
 entry_arquivo.pack(pady=20)
